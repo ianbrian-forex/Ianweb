@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<img src="images/profile.jpg" alt="My photo" class="profile-pic">
+<html>
+
+<head>
+    <title>Ian Brian Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </nav>
+
+    <section class="hero" id="home">
+
+        <h1>Ian Brian</h1>
+
+        <p>Future Web Developer</p>
+
+        <a href="#contact">
+            <button onclick="showMessage()">Contact Me</button>
+        </a>
+
+    </section>
+    <section class="section" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am Ian Brian from Kenya.
+            I am learning web development, Python, and website deployment.
+        </p>
+
+    </section>
+    <section class="section" id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>My first website built using HTML and CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Python Projects</h3>
+                <p>Programs I build while learning Python.</p>
+            </div>
+
+            <div class="card">
+                <h3>Future News Website</h3>
+                <p>A news website inspired by GLOBAL INFO.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name">
+
+            <br><br>
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <br><br>
+
+            <input type="text" id="phone" placeholder="Phone Number">
+
+            <br><br>
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+    <footer>
+
+        <p>© 2026 Ian Brian. All rights reserved.</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

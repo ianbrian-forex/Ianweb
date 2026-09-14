@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    color: rgb(0, 225, 255);
+}
+
+.profile-pic {
+    transition: 0.3s;
+}
+
+.profile-pic:hover {
+    transform: rotate(5deg);
+}
+
+@media(max-width:768px) {
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.dark-mode {
+    background: #111;
+    color: white;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+form button {
+    margin-top: 10px;
+}
